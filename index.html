@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Sofia Pichihua - Portafolio </title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Nunito+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- script
+	================================================== -->
+    <script src="js/modernizr.js"></script>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navigation-bar" tabindex="0">
+
+
+    <div class=" offcanvas-btn text-end m-3">
+        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"><iconify-icon icon="ci:hamburger-lg"
+                style="font-size: 30px;"></iconify-icon></button>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <header class="hero position-fixed">
+                <div class="container hero-container text-center align-content-between">
+
+                    <div>
+                        <img src="images/carlbrown.png" class="hero-img mb-4 rounded-circle" alt="Bootstrap Themes"
+                            width="140" height="140" loading="lazy">
+
+
+                        <h2 class="fw-bold">Sofia Pichihua</h2>
+                        <p>Journalist and social media editor.</p>
+                        <div class="social-icon my-2">
+                            <p>
+                                <a class="social-link mx-3 active" href="https://www.linkedin.com/in/sofiapichihua/" target="_blank"> <iconify-icon
+                                    icon="icomoon-free:linkedin"></iconify-icon> </a>
+                        
+                            <a class="social-link mx-3 " href="https://twitter.com/zophiap" target="_blank"> <iconify-icon
+                                    icon="icomoon-free:twitter"></iconify-icon> </a>
+                            <a class="social-link mx-3 " href="https://www.youtube.com/c/OtakuPress/videos" target="_blank"> <iconify-icon
+                                    icon="icomoon-free:youtube"></iconify-icon> </a>
+                            </p>
+
+                        </div>
+
+                        <h4 class=" text-uppercase text-light fs-5 fw-bold py-2 mx-5 mt-4 ">Links</h4>
+
+                        <ul class="text-center list-unstyled">
+                            <li><a href="blog-single.html" class="text-uppercase ">Blog-Single
+                                    <span class="badge bg-secondary">Pro</span></a></li>
+                            <li><a href="services-single.html" class="text-uppercase ">Service-Single
+                                    <span class="badge bg-secondary">Pro</span></a></li>
+                          
+                        </ul>
+
+                        <div>
+                            <a href="https://templatesjungle.gumroad.com/l/carl-free-bootstrap-5-html-website-template-for-portfolio"
+                                class="btn btn-primary get-pro text-uppercase rounded-5 py-3 px-4 mt-2">Get
+                                Pro <iconify-icon icon="mdi:cart" class="ps-2" style="color: white;"></iconify-icon>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mb-5">
+                        <p class="copyright ">© Diseño por: <a href="https://templatesjungle.com/">
+                                <u>TemplatesJungle </u> </a> </p>
+                    </div>
+
+
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <section id="navigation-bar" class="navigation position-fixed ">
+
+
+                <ul class="nav nav-pills text-center align-items-center mt-5 ms-xl-5 ms-3 ">
+                    <li>
+                        <a href="#home" class="nav-link active rounded-0" aria-current="page" data-bs-toggle="tooltip"
+                            data-bs-placement="right" aria-label="Home" data-bs-original-title="Home">
+                            <iconify-icon icon="ic:round-home"></iconify-icon>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Dashboard" data-bs-original-title="Dashboard">
+                            <iconify-icon icon="ic:round-person"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#resume" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Orders" data-bs-original-title="Orders">
+                            <iconify-icon icon="ic:round-school"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link rounded-0" data-bs-toggle="tooltip"
+                            data-bs-placement="right" aria-label="Products" data-bs-original-title="Products">
+                            <iconify-icon icon="ic:round-business-center"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#blog" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Customers" data-bs-original-title="Customers">
+                            <iconify-icon icon="ic:round-menu-book"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Customers" data-bs-original-title="Customers">
+                            <iconify-icon icon="ic:round-phone"></iconify-icon>
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <div class="col-xl-5 offset-xl-2">
+                <div class="container content-container">
+
+                    <section id="home" class="mt-0">
+
+                        <div class=" py-lg-4 my-lg-4 text-center">
+                            <h1 class="fw-bold">Hi I’m Sofia Pichihua</h1>
+                            <div class="col-lg-10 mx-auto">
+                                <p class="lead-paragraph mb-4">Peruvian journalist. Science and Tech news editor and Social Media Editor at Andina news agency and El Peruano newspaper. Digital marketing consultant. Asian culture blogger. 
+                                </p>
+                                <div class=" gap-2 d-sm-flex justify-content-sm-center">
+                                    <button type="button" class="btn btn-primary btn-lg mt-3"><a href="https://docs.google.com/document/d/e/2PACX-1vRk0qNd-lcNga8kC_oi7ljaI6zhzikWJHnvAH4SKhJABO4TgKO9LQJHbUmQ-AyuQ8P5PRLeeYwjm6hT/pub" target="_blank">DOWNLOAD CV</a></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <section id="about" class="mt-0">
+
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">About me</h1>
+                            <p class="lead-paragraph my-4">As a journalist, I have specialized in science and technology. As a blogger, I am a content creator about Japanese culture (anime, manga, video games). As a university teacher and consultant, I focus on digital marketing. I love to write and share information in social media.</p>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class=" py-4 my-4 ">
+                            <h2 class="fw-bold">Personal Info</h2>
+
+                            <ul class="list-unstyled">
+                                <li><b>Age:</b> 35 </li>
+                                <li><b>Residence:</b> Peru </li>
+                                <li><b>City:</b> Lima</li>
+                                <li><b>E-mail:</b> spichihua@pucp.edu.pe</li>
+                                <li><b>Phone:</b> +51 315-0400 / 2137</li>
+                            </ul>
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class=" py-4 my-4 ">
+                            <h2 class="fw-bold pt-4 pb-5">Services</h2>
+                            <div class="row row-cols-1 row-cols-sm-2 ">
+                                <div class="col d-flex align-items-start pb-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2561/2561996.png" width="40" alt="image">
+                                    <div>
+                                        <h4 class="fw-bold mb-0">Content creator</h4>
+                                        <p class="mb-1">Videos, photos, Live and social media post about your brand.
+                                        </p>
+                                        <a href="https://www.periodista.pe/p/blogger.html" class="icon-link text-black fs-6 mt-0">More
+                                            info</a>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-start pb-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/4698/4698699.png" width="40" alt="image">
+                                    <div>
+                                        <h4 class="fw-bold mb-0">Sponsored content</h4>
+                                        <p class="mb-1">Backlinks and sponsored articles about your brand.
+                                        </p>
+                                        <a href="https://www.periodista.pe/p/blogger.html" class="icon-link text-black fs-6 mt-0">More
+                                            info</a>
+
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-start pb-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2728/2728217.png"  width="40" alt="image">
+                                    <div>
+                                        <h4 class="fw-bold mb-0">Digital marketing</h4>
+                                        <p class="mb-1">I can help you with your social media strategy.
+                                        </p>
+                                        <a href="https://www.periodista.pe/p/buscas-asesoria.html" class="icon-link text-black fs-6 mt-0">More
+                                            info</a>
+
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-start pb-5">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3496/3496049.png"  width="40" alt="image">
+                                    <div>
+                                        <h4 class="fw-bold mb-0">1:1 meeting</h4>
+                                        <p class="mb-1">Do you need training in digital marketing? Ask for 1:1 meetings.
+                                        </p>
+                                        <a href="https://www.periodista.pe/p/buscas-asesoria.html" class="icon-link text-black fs-6 mt-0">More
+                                            info</a>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                          <div class="py-4 my-5 ">
+                            <h2 class="fw-bold pb-4">Read my news articles in:</h2>
+                            <div class="row my-3">
+                                <div class="client-content">
+                                    <a href="http://andina.pe" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNEmREEGz1ZffTFH1RhRWAJl_TlDdCWiCh3n30DqU7Sw&s" alt="client"></a>
+                                    <a href="http://elperuano.pe" target="_blank"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN4E9hUiaL3uD80vfEcEk0ZKGhvo6VxUfXjfeAdjjL0Q&s" alt="client"></a>
+                                     
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="mid-break my-2">
+ 
+
+                    </section>
+
+                    <section id="resume">
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">Resume</h1>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+
+                        <div class="py-4 my-4 ">
+                            <h2 class="fw-bold pb-4">My Skills</h2>
+
+
+                            <div id="progressbar-tooltip-id" class="progressbar-tooltip">
+
+                                <h4>Adobe Suite</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="90" data-title=""></div>
+                                <h4>Social media</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="90" data-title=""></div>
+                                <h4>HTML</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="30" data-title="Basic"></div>
+                                <h4>Pyhton</h4>
+                                <div class="ab-progress progress-tooltip" data-progress data-tooltip="true"
+                                    data-value="30" data-title="Basic"></div>
+                            </div>
+
+
+
+
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class="py-4 my-4 ">
+                            <h2 class="fw-bold pb-4">Experience</h2>
+
+
+                            <div class="row justify-content-start" data-aos="fade-up">
+                                <div class="col-7">
+                                    <div class="data-info ">
+                                        <p class="meta-date">2014 - Present <img src="images/Ellipse 7.png" alt="image">
+                                            <a class="open-description"> Journalism </a> </p>
+                                        <h3 class="info-title">Science & Tech Editor</h3>
+                                        <p>Agenda-setting in Science and Tech news articles in Andina news agency and El Peruano newspaper.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row justify-content-end" data-aos="fade-up">
+                                <div class="col-7">
+                                    <div class="data-info">
+                                        <p class="meta-date">2009 - 2014 <img src="images/Ellipse 7.png" alt="image"> <a
+                                                class="open-description">Journalism </a> </p>
+                                        <h3 class="info-title">Senior Journalist</h3>
+                                        <p>Writing news articles at Peru21 newspaper.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row justify-content-start" data-aos="fade-up">
+                                <div class="col-7">
+                                    <div class="data-info ">
+                                        <p class="meta-date">2020- Present <img src="images/Ellipse 7.png" alt="image"> <a
+                                                class="open-description"> University </a></p>
+                                        <h3 class="info-title">Digital media professor</h3>
+                                        <p>Science journalism and Digital media courses at PUCP.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class="py-4 my-4 ">
+                            <h2 class="fw-bold pb-4">Education</h2>
+
+                            <div class="row justify-content-start" data-aos="fade-up">
+                                <div class="col-7">
+                                    <div class="data-info ">
+                                        <p class="meta-date">2015- 2016 <img src="images/Ellipse 7.png" alt="image">
+                                            <a class="open-description">PUCP</a>
+                                        </p>
+                                        <h3 class="info-title">Master Degree in Communications</h3>
+                                        <p>News production and communications researcher.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-start" data-aos="fade-up">
+                                <div class="col-7">
+                                    <div class="data-info  ">
+                                        <p class="meta-date">2005 - 2010 <img src="images/Ellipse 7.png" alt="image"> <a
+                                                class="open-description">PUCP</a></p>
+                                        <h3 class="info-title">Communications Faculty</h3>
+                                        <p>Bachelor of Journalism.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                           
+
+
+                        </div>
+
+                    </section>
+
+                    <section id="portfolio">
+
+
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">Recent projects</h1>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+
+                        <div class="py-4 my-4 ">
+
+                            <div class="mb-5">
+                                <p>
+                                    <button class="filter-button active" data-filter="*">All</button>
+                                    <button class="filter-button" data-filter=".branding">Journalism</button>
+                                    <button class="filter-button" data-filter=".tshirt">Academy</button>
+                                    <button class="filter-button" data-filter=".package">Blogger</button>
+                                   
+                                </p>
+                            </div>
+
+
+                            <div class="isotope-container">
+                                <div class="item website col-md-4">
+
+
+                                    <a href="https://otakupress.pe/" target="_blank" title="Andina Podcast" class="image-link">
+
+                                        <img class="portfolio-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn4UcsBdlPLSQbWbphM0jhgLTrdlwGQnehjGWV31MgDA&s" alt="image">
+                                        <div class="description">
+                                            <h4>Otaku Press</h4>
+                                        </div>
+
+                                    </a>
+
+                                </div>
+
+                                <div class="item branding col-md-4">
+                                    <a href="https://podcast.andina.pe/" target="_blank" title="Andina Podcast" class="image-link">
+
+                                        <img class="portfolio-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRytkmGWUe6FPlkSDX8yuJj2RiqBIcuzpmAp6TuSctlWg&s" alt="image">
+                                        <div class="description">
+                                            <h4>Andina Podcast</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item branding col-md-4">
+                                    <a href="https://open.spotify.com/show/3XRNfOBL0cwFr7DpGuVtcl" title="El Peruano Podcast" class="image-link">
+                                        <img class="portfolio-img" src="https://i1.sndcdn.com/avatars-j38yVTHijl4JPByF-13Axgg-t500x500.jpg" alt="image">
+                                        <div class="description">
+                                            <h4>El Peruano Podcast</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item tshirt col-md-4">
+                                    <a href="https://bausate.edu.pe/ganadores-del-concurso-de-proyectos-de-investigacion-2023/" title="UJBM" class="image-link">
+                                        <img class="portfolio-img" src="data:image/png;base64,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" alt="image">
+                                        <div class="description">
+                                            <h4>UJBM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                
+
+                                <div class="item tshirt col-md-4">
+                                    <a href="https://www.pucp.edu.pe/profesor/sofia-pichihua-vegas" title="PUCP" class="image-link">
+                                        <img class="portfolio-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThke2LNTVaNNAgqGIyDVDa5btOcyylsxz_N5r4rSKKJg&s" alt="image">
+                                        <div class="description">
+                                            <h4>PUCP</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item package col-md-4">
+                                    <a href="https://www.crunchyroll.com/es/news/author/Sofia-Pichihua" title="Crunchyroll" class="image-link">
+                                        <img class="portfolio-img" src="https://i.pinimg.com/originals/de/d8/c7/ded8c7a74a788ddd3cbccd19639e6173.png" alt="image">
+                                        <div class="description">
+                                            <h4>Crunchyroll News</h4>
+                                        </div>
+                                    </a>
+                                </div>
+ 
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <section id="blog">
+
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">Blog</h1>
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class="container py-4 my-4">
+
+                            <div class="row ">
+                                <article class="blog-article col-md-6">
+                                    <div class="image-holder">
+                                        <a href="https://www.periodista.pe/2023/09/tiktok-investigacion-medios-comunicacion.html" target="_blank"  class="image-hvr-effect">
+                                            <img src="https://bausate.edu.pe/wp-content/uploads/2023/06/DOC-scaled.jpg" alt="post" class="post-image">
+                                        </a>
+                                    </div>
+                                    <div class="post-item">
+                                        <p class="meta-date">Sep, 2023 <img src="images/Ellipse 7.png" alt="image">
+                                            <a class="open-description">Academy</a>
+                                        </p>
+                                        <a href="https://www.periodista.pe/2023/09/tiktok-investigacion-medios-comunicacion.html" target="_blank"  class="blog-description">
+                                            <h3 class="info-title text-capitalize">Research about TikTok accounts (Spanish)</h3>
+                                        </a>
+
+                                    </div>
+                                </article>
+                                <article class="blog-article col-md-6">
+                                    <div class="image-holder">
+                                        <a href="https://www.periodista.pe/2022/09/5-pasos-para-detectar-contenido-falso.html" target="_blank" class="image-hvr-effect">
+                                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHvYFFSTjJ5FvyIqsy24PYnjur9z2lWwgwmE-yBKJvvdIl0anHp5tcPnSXRcpcciuCvRjkxr2FuqFUxdWDsUU52Fm5RQ6-iIf0JVleGzG-AqoRgUf44JIU7NXMIH_JBxU7BumQmT-G9QZtk7rlF-F4PTyVHJZ9bqNmDRYjkKqu2lOqXPJUCWCM1GFk/w640-h474/fake-news.png" alt="post" class="post-image">
+                                        </a>
+                                    </div>
+                                    <div class="post-item">
+                                        <p class="meta-date">Sep, 2022 <img src="images/Ellipse 7.png" alt="image">
+                                            <a class="open-description">News</a>
+                                        </p>
+                                        <a href="https://www.periodista.pe/2022/09/5-pasos-para-detectar-contenido-falso.html" target="_blank"  class="blog-description">
+                                            <h3 class="info-title text-capitalize">Webinar about fake news (Spanish)</h3>
+                                        </a>
+
+                                    </div>
+                                </article>
+                               
+
+
+
+                            </div>
+
+
+                            <div class="d-flex flex-row justify-content-center mt-3">
+                                <div class="blog-swipe"> <a class="blog-swipe "><iconify-icon
+                                            icon="ic:round-arrow-back"></iconify-icon></a> </div>
+                                <div class="blog-swipe active"> <a class="blog-swipe active">1</a> </div>
+                                <div class="blog-swipe"> <a class="blog-swipe "> 2 </a> </div>
+                                 <div class="blog-swipe"> <a class="blog-swipe "> <iconify-icon
+                                            icon="ic:round-arrow-forward"></iconify-icon></a></div>
+                            </div>
+
+
+                        </div>
+                    </section>
+
+                    <section id="contact">
+
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5">Contact</h1>
+                            <p>Wanna talk about project? Please feel free to contact me.</p>
+                        </div>
+
+
+                        <hr class="mid-break my-2">
+
+                        <div class="py-4 my-4 ">
+
+                            <div class="row justify-content-around">
+                                <div class="col-md-4 contact-list">
+                                    <p class="contact-paragraph"><iconify-icon icon="ic:outline-phone"></iconify-icon>
+                                        +51 315-0400</p>
+                                </div>
+                                <div class="col-md-4 contact-list">
+                                    <p class="contact-paragraph"><iconify-icon icon="ic:outline-email"></iconify-icon>
+                                        spichihua@pucp.edu.pe</p>
+                                </div>
+                                <div class="col-md-4 contact-list">
+                                    <p class="contact-paragraph"> <iconify-icon
+                                            icon="ic:outline-location-on"></iconify-icon>Lima, Peru</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        <div class="py-4 my-4 ">
+
+                            <h2 class="fw-bold pb-4">Get In Touch</h2>
+
+                            <form name="contactform" action="mailto:spichihua@pucp.edu.pe" method="post"
+                                class="form-group contact-form mt-4">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" minlength="2" name="name" placeholder="Name*"
+                                            class="form-control" required="">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" name="email" placeholder="E-mail*" class="form-control"
+                                            required="">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+
+                                        <textarea class="form-control mt-4 mb-4" name="message" placeholder="Message"
+                                            style="height: 150px;" required=""></textarea>
+
+
+                                        <button type="submit" name="submit" class="btn btn-primary btn-lg ">SEND
+                                            IT</button>
+
+
+
+
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <hr class="mid-break my-2">
+
+                        
+
+                    </section>
+
+                </div>
+            </div>
+
+            <div class="hero-sidebar col-xl-3 offset-xl-1">
+                <header class="hero position-fixed">
+                    <div class="container hero-container text-center my-4 pt-3 align-content-between">
+
+                        <div>
+                            <img src="https://pbs.twimg.com/profile_images/1641254371064160256/EKF3_Uu__400x400.jpg" class="hero-img mb-4 rounded-circle" alt="Bootstrap Themes"
+                                width="140" height="140" loading="lazy">
+
+
+                            <h2 class="fw-bold mt-3">Sofia Pichihua</h2>
+                            <p>Journalist, social media editor and communications researcher.</p>
+                            <div class="social-icon my-3">
+                                <p>
+                                    <a class="social-link mx-3 active" href="https://www.linkedin.com/in/sofiapichihua/" target="_blank"> <iconify-icon
+                                            icon="icomoon-free:linkedin"></iconify-icon> </a>
+                                
+                                    <a class="social-link mx-3 " href="https://twitter.com/zophiap" target="_blank"> <iconify-icon
+                                            icon="icomoon-free:twitter"></iconify-icon> </a>
+                                    <a class="social-link mx-3 " href="https://www.youtube.com/c/OtakuPress/videos" target="_blank"> <iconify-icon
+                                            icon="icomoon-free:youtube"></iconify-icon> </a>
+                                </p>
+
+                            </div>
+
+                            <h4 class=" text-uppercase text-light fs-5 fw-bold py-2 mx-5 mt-5">Links</h4>
+
+                            <ul class="text-center list-unstyled">
+                                <li><a href="http://otakupress.pe" class="text-uppercase " target="_blank">Otaku Press
+                                        <span class="badge bg-secondary">spanish</span></a></li>
+                                <li><a href="http://periodista.pe" class="text-uppercase " target="_blank">Website  
+                                        <span class="badge bg-secondary">spanish</span></a></li>
+                                
+                                
+                            </ul>
+
+       
+                        </div>
+
+
+                        <div class="mb-5">
+                            <p class="copyright ">© Diseño por: <a href="https://templatesjungle.com/">
+                                    <u>TemplatesJungle </u> </a> </p>
+                        </div>
+
+
+                    </div>
+                </header>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+
+</body>
+
+</html>
